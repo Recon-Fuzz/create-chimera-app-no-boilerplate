@@ -2,12 +2,11 @@
 pragma solidity ^0.8.0;
 
 import {BaseTargetFunctions} from "@chimera/BaseTargetFunctions.sol";
-import {BeforeAfter} from "../BeforeAfter.sol";
-import {Properties} from "../Properties.sol";
 import {vm} from "@chimera/Hevm.sol";
 
 import {MockERC20} from "@recon/MockERC20.sol";
 
+import {Properties} from "../Properties.sol";
 
 // Target functions that are effectively inherited from the Actor and AssetManagers
 // Once properly standardized, managers will expose these by default
